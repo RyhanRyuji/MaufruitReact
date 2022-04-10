@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=M+PLUS+1:wght@300&family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #000;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h1{
+   font-size: 2.5rem;
+   font-family: 'Dancing Script', cursive;
+  
+   color: #47C627;
+
+}
+.footer-content p{
+    color: #000;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    margin: 5px;
+}
+
+.menu li{
+    margin: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.menu a:hover{
+    color: #47C627;
+    
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px; 
+}
+.socials li{
+    padding: 20px;    
+}
+.socials li a{
+    font-size: 20px;
+  
+}
+
+.fa {
+    padding: 11px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+    background: #ee55cd;
+    color: white;
+}
+  
+
+.footer-content p{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+}

@@ -1,0 +1,21 @@
+.MessageBox{
+    font-family: 'Lobster', cursive;
+}
+
+.MessageBox h2{
+    text-align: center;
+    padding: 30px; 
+}
+.MessageBox p{
+    color: red;
+}
+/*box input shadow*/
+.mb-3 input[type=text]:focus, input[type=email]:focus,.mb-3 input[type=number]:focus{
+    box-shadow: 1px 2px 5px 3px rgba(71,198,39,0.75);
+    transition: 1s;
+}
+
+.mb-3 textarea:focus{
+    box-shadow: 1px 2px 5px 3px rgba(71,198,39,0.75);
+    transition: 1s;
+}

@@ -1,0 +1,19 @@
+.col-3.icon{
+    padding: 20px;
+}
+.col-5.info{
+    padding: 20px;
+       
+}
+.col-5.info span{
+    font-weight: bolder;
+}
+.InformationBoxColor{
+    background-color: #47C627;
+}
+@media (max-width: 575.98px) {
+    .col-5.info{
+        overflow-wrap: break-word;
+
+    }
+}

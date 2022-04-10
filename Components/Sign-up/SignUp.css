@@ -1,0 +1,25 @@
+.btn-group{
+    margin: 30px;
+    box-shadow: 5px 6px 13px 0px rgba(0,0,0,0.75);    
+}
+.togg-btn{  
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px;
+    outline: none ;
+}
+.togg-btn:hover,.togg-btn:focus{
+    background-color: #47C627;
+    transition: 1s;
+    
+}
+.fixedColButton{
+    background-color: #379b1e;
+}
+.col-6{
+    box-shadow: 5px 6px 13px 0px rgba(0,0,0,0.75); 
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}

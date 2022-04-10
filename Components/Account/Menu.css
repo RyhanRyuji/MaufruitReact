@@ -1,0 +1,12 @@
+.MenuItem{
+    background-color: #47C627;
+    color: white;
+    border-radius: 20px;
+    
+}
+.MenuItem h3{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    padding: 20px;
+}

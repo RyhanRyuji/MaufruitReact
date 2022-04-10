@@ -1,0 +1,47 @@
+.ContactTitle {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 30px;    
+  }
+
+.MessageForm{
+    box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+
+}
+@media (max-width: 995px) {
+   
+    .MessageForm{
+        position: relative;
+        order: 1;
+        box-shadow: none;
+        padding: 0 0 20px ;
+        background-color:rgb(233, 233, 233);
+    }
+    .MessageForm::after,.MessageForm::before{
+        position: absolute;
+        content: '';
+        background-color: white;
+        width: 10px;
+        height: 100%;
+        top: 0;
+    }
+    .MessageForm::after{
+       
+        left: 0;
+        
+    }
+    .MessageForm::before{
+    
+        right: 0;
+        
+    }
+    .InfoMap{
+        order: 2;
+        width: calc(100%+30px);
+        
+    }
+    
+
+   
+    
+}

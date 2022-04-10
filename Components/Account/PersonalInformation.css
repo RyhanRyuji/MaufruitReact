@@ -1,0 +1,32 @@
+#accountInfo{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding: 50px;
+}
+#accountInfo h4{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+
+}
+.form-control-sm{
+    margin-left: 10px;
+}
+.SelectGender{
+    margin-left: 10px;
+}
+.btn{
+    margin-top: 20px;
+}
+.mb-3 input[type=text]:focus,input[type=email]:focus{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+.mb-3  input[type=number]:focus{
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+.addressOption{
+
+}
+.form-label span{
+    color: red;    
+}

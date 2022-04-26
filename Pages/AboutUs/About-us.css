@@ -1,0 +1,18 @@
+.about{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+   
+}
+.about h2{
+    font-family: 'Lobster', cursive;
+    padding: 30px;
+    font-size:50px;
+}
+.about h3{
+    padding: 20px;
+    font-weight: bold;
+}
+.about img{
+    padding: 40px 0 40px;
+   border-radius: 30%;
+}

@@ -1,0 +1,17 @@
+.SecurityBox{
+    box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    padding: 50px;
+
+}
+#securityInf h4{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.form-label{
+    margin-left: 10px;
+}
+.btn{
+    margin: 20px;
+}

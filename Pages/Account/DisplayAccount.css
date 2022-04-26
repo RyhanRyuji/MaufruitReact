@@ -1,0 +1,19 @@
+.col-6{
+    box-shadow: none;
+}
+.MenuItem{
+    background-color: #47C627;
+    border-radius: 20px;
+    
+}
+.MenuItem button{
+    font-size: larger;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #47C627;
+    color: white;
+    border: none;
+}
+.fixedUnderlineButton{
+    text-decoration: underline white; 
+}

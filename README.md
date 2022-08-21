@@ -1,2 +1,2 @@
-# WebProject-FrontEnd
-University Assignment to build a web
+# WebProject- part of the FrontEnd using React
+
